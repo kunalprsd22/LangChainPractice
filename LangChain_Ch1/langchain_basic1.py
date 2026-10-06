@@ -1,12 +1,6 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-from os import environ
+from config import model
 
-
-model = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash"
-)
-
-option = 3
+option = 1
 
 if option == 1:
   # invoke :- Send this input to the model and return the result.
